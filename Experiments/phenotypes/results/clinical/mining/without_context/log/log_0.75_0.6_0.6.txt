@@ -1,0 +1,34 @@
+Configuration: without_context
+Number of instances: 2505
+Number of attributes: 25
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 0.75
+maximum_positive_overlap = 0.6
+maximum_negative_overlap = 0.6
+---
+## Subgroup list 1 (4 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [admission_location = 'REFERRAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s4: [admission_location = 'REFERRAL', previous_isolation_of_sarm = 'no']
+## Subgroup list 2 (4 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']
+s4: [admission_location = 'REFERRAL', organ_transplant_in_previous_admissions = 'no']
+## Subgroup list 3 (6 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [admission_location = 'TRANSFER_FROM_HOSPITAL', mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [previous_isolation_of_enterobacterales_cre = 'no', treated_with_vancomycin_in_previous_admissions = 'yes']
+s4: [treated_with_vancomycin_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s5: [admission_location = 'REFERRAL', previous_exposure_to_aminoglycosides = 'no']
+s6: [organ_transplant_in_previous_admissions = 'no', patient_age = 'ADULT', previous_isolation_of_enterobacterales_cre = 'no']
+---
+quality = 0.12633352058358335
+coverage = 0.7461077844311377
+diversity = 0.7380952380952381
+number_of_subgroups = 14
+---
+Start time: 2026-10-12 15:52:22.270227
+End time: 2026-10-12 15:53:09.192067

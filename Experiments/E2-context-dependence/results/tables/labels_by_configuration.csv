@@ -1,0 +1,10 @@
+configurations,CONTEXT_DRIVEN,NOT_ASSOCIATED,SPACE_MODULATED,SPACE_SPECIFIC,TRANSVERSAL
+"unit_CCU, unit_CSRU, unit_NO_ICU, unit_TSICU",0,0,1,0,0
+unit_MICU,0,1,2,0,1
+"unit_MICU, unit_SICU, with_context, without_context",0,0,0,0,1
+unit_NO_ICU,0,0,0,0,2
+unit_SICU,0,0,0,0,2
+"unit_SICU, with_context",0,0,0,0,1
+with_context,2,0,2,1,8
+"with_context, without_context",0,0,0,0,1
+without_context,0,1,0,3,8

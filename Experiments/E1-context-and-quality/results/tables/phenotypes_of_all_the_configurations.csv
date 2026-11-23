@@ -1,0 +1,70 @@
+configuration,list,position,subgroup,n,precision,wracc,n_in_position,precision_in_position
+without_context,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",267,0.7265917602996255,0.04217146545232888,267,0.7265917602996255
+without_context,1,2,"[admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",168,0.6130952380952381,0.018923111860112113,168,0.6130952380952381
+without_context,1,3,"[admission_location = 'REFERRAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",340,0.5852941176470589,0.0345233684327951,247,0.5344129554655871
+without_context,1,4,"[admission_location = 'REFERRAL', previous_isolation_of_sarm = 'no']",738,0.36720867208672087,0.010685694479304871,412,0.19174757281553398
+without_context,1,5,default rule,1411,0.22749822820694543,,1411,0.22749822820694543
+without_context,2,1,"[previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",133,0.7819548872180451,0.0239461994175322,133,0.7819548872180451
+without_context,2,2,"[previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",854,0.5199063231850117,0.0644226915430616,854,0.5199063231850117
+without_context,2,3,"[patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']",947,0.36536430834213307,0.013014609503547811,513,0.20272904483430798
+without_context,2,4,"[admission_location = 'REFERRAL', organ_transplant_in_previous_admissions = 'no']",730,0.36575342465753424,0.010145776311648166,278,0.18705035971223022
+without_context,2,5,default rule,727,0.171939477303989,,727,0.171939477303989
+without_context,3,1,"[previous_exposure_to_antifungal_agents = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",160,0.75625,0.027165628822195927,160,0.75625
+without_context,3,2,"[admission_location = 'TRANSFER_FROM_HOSPITAL', mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",204,0.6372549019607843,0.024945557985824755,191,0.6230366492146597
+without_context,3,3,"[previous_isolation_of_enterobacterales_cre = 'no', treated_with_vancomycin_in_previous_admissions = 'yes']",321,0.6199376947040498,0.037033477954271095,219,0.5388127853881278
+without_context,3,4,"[treated_with_vancomycin_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",754,0.4973474801061008,0.05008888410803145,560,0.4625
+without_context,3,5,"[admission_location = 'REFERRAL', previous_exposure_to_aminoglycosides = 'no']",738,0.3685636856368564,0.01108489607611126,371,0.15363881401617252
+without_context,3,6,"[organ_transplant_in_previous_admissions = 'no', patient_age = 'ADULT', previous_isolation_of_enterobacterales_cre = 'no']",909,0.36083608360836084,0.010849199803984853,319,0.1536050156739812
+without_context,3,7,default rule,685,0.15474452554744525,,685,0.15474452554744525
+with_context,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",267,0.7265917602996255,0.04217146545232888,267,0.7265917602996255
+with_context,1,2,"[service_when_culture = 'OMED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",57,0.8421052631578947,0.011631348082278557,43,0.813953488372093
+with_context,1,3,"[readmission = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",257,0.5914396887159533,0.026726108660921673,257,0.5914396887159533
+with_context,1,4,"[admission_type = 'EMERGENCY', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",213,0.6291079812206573,0.025353365126035355,161,0.5900621118012422
+with_context,1,5,"[patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']",947,0.36536430834213307,0.013014609503547811,620,0.21129032258064517
+with_context,1,6,default rule,1157,0.19187554019014694,,1157,0.19187554019014694
+with_context,2,1,"[previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",167,0.7485029940119761,0.027837658017298737,167,0.7485029940119761
+with_context,2,2,"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",340,0.6058823529411764,0.0373177796104398,340,0.6058823529411764
+with_context,2,3,"[previous_exposure_to_third_generation_cephalosporins = 'no', service_when_culture = 'OMED']",73,0.7671232876712328,0.012711184417591961,62,0.7419354838709677
+with_context,2,4,"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",199,0.5628140703517588,0.01842048438054032,199,0.5628140703517588
+with_context,2,5,"[patient_age = 'ADULT', previous_isolation_of_erv = 'no']",940,0.3648936170212766,0.012741781905251383,584,0.19863013698630136
+with_context,2,6,default rule,1153,0.194275802254987,,1153,0.194275802254987
+with_context,3,1,"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",243,0.7037037037037037,0.03616049338448851,243,0.7037037037037037
+with_context,3,2,"[previous_exposure_to_fluorquinolones = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",302,0.5993377483443708,0.032357958733232134,302,0.5993377483443708
+with_context,3,3,"[organ_transplant_in_previous_admissions = 'no', service_when_culture = 'OMED']",74,0.7567567567567568,0.012579073390145858,61,0.7377049180327869
+with_context,3,4,"[previous_isolation_of_pseudomonas_aeruginosa = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",237,0.5907172995780591,0.024577910048167142,194,0.5515463917525774
+with_context,3,5,"[patient_age = 'ADULT', previous_exposure_to_carbapenems = 'no']",975,0.3671794871794872,0.014105919896733488,604,0.2052980132450331
+with_context,3,6,[admission_location = 'REFERRAL'],763,0.3735255570117955,0.01297174114844164,323,0.21671826625386997
+with_context,3,7,default rule,778,0.16838046272493573,,778,0.16838046272493573
+unit_MICU,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",97,0.8041237113402062,0.04952270094561542,97,0.8041237113402062
+unit_MICU,1,2,default rule,634,0.37381703470031546,,634,0.37381703470031546
+unit_MICU,2,1,"[hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",366,0.6311475409836066,0.10025245105836693,366,0.6311475409836066
+unit_MICU,2,2,[patient_gender = 'F'],377,0.4588859416445623,0.014424705395790471,197,0.25888324873096447
+unit_MICU,2,3,default rule,168,0.19642857142857142,,168,0.19642857142857142
+unit_MICU,3,1,"[previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",356,0.6348314606741573,0.09930739705929137,356,0.6348314606741573
+unit_MICU,3,2,[patient_age = 'ADULT'],338,0.46745562130177515,0.016894945551789893,151,0.2582781456953642
+unit_MICU,3,3,default rule,224,0.22321428571428573,,224,0.22321428571428573
+unit_SICU,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",50,0.76,0.04763900765107948,50,0.76
+unit_SICU,1,2,default rule,373,0.30294906166219837,,373,0.30294906166219837
+unit_SICU,2,1,"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",48,0.75,0.04459869557198665,48,0.75
+unit_SICU,2,2,default rule,375,0.30666666666666664,,375,0.30666666666666664
+unit_SICU,3,1,"[mechanical_ventilation_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",29,0.8275862068965517,0.032264194177578816,29,0.8275862068965517
+unit_SICU,3,2,"[mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",184,0.5434782608695652,0.08112715099285189,184,0.5434782608695652
+unit_SICU,3,3,default rule,210,0.12857142857142856,,210,0.12857142857142856
+unit_TSICU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],96,0.40625,0.0757864883317869,96,0.40625
+unit_TSICU,1,2,default rule,143,0.09090909090909091,,143,0.09090909090909091
+unit_TSICU,2,1,default rule,239,0.2175732217573222,,239,0.2175732217573222
+unit_TSICU,3,1,default rule,239,0.2175732217573222,,239,0.2175732217573222
+unit_CCU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],55,0.43636363636363634,0.06834781804733728,55,0.43636363636363634
+unit_CCU,1,2,default rule,153,0.08496732026143791,,153,0.08496732026143791
+unit_CCU,2,1,default rule,208,0.1778846153846154,,208,0.1778846153846154
+unit_CCU,3,1,default rule,208,0.1778846153846154,,208,0.1778846153846154
+unit_CSRU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],68,0.6911764705882353,0.1268489892984542,68,0.6911764705882353
+unit_CSRU,1,2,default rule,77,0.18181818181818182,,77,0.18181818181818182
+unit_CSRU,2,1,default rule,145,0.4206896551724138,,145,0.4206896551724138
+unit_CSRU,3,1,default rule,145,0.4206896551724138,,145,0.4206896551724138
+unit_NO_ICU,1,1,[treated_with_vancomycin_in_previous_admissions = 'yes'],176,0.5397727272727273,0.060090508105630984,176,0.5397727272727273
+unit_NO_ICU,1,2,default rule,583,0.20240137221269297,,583,0.20240137221269297
+unit_NO_ICU,2,1,[previous_exposure_to_fluorquinolones = 'yes'],181,0.5027624309392266,0.052971717518890585,181,0.5027624309392266
+unit_NO_ICU,2,2,default rule,578,0.21107266435986158,,578,0.21107266435986158
+unit_NO_ICU,3,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],223,0.4663677130044843,0.05457045103032387,223,0.4663677130044843
+unit_NO_ICU,3,2,default rule,536,0.20335820895522388,,536,0.20335820895522388

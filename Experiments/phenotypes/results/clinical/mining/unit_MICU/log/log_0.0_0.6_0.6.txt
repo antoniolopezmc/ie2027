@@ -1,0 +1,25 @@
+Configuration: unit_MICU
+Number of instances: 731
+Number of attributes: 25
+Number of instances in which the target is true: 315
+Number of instances in which the target is false: 416
+beta_parameter = 0.0
+maximum_positive_overlap = 0.6
+maximum_negative_overlap = 0.6
+---
+## Subgroup list 1 (2 subgroups) ##
+s1: [treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [patient_gender = 'F']
+## Subgroup list 2 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes']
+## Subgroup list 3 (2 subgroups) ##
+s1: [previous_exposure_to_third_generation_cephalosporins = 'yes']
+s2: [previous_exposure_to_carbapenems = 'yes']
+---
+quality = 0.07240049329947357
+coverage = 0.8043775649794802
+diversity = 1.0
+number_of_subgroups = 5
+---
+Start time: 2026-10-12 16:04:44.315479
+End time: 2026-10-12 16:04:51.162925

@@ -1,0 +1,26 @@
+Configuration: without_context
+Number of instances: 2505
+Number of attributes: 25
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 0.5
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.1
+---
+## Subgroup list 1 (2 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (2 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 3 (2 subgroups) ##
+s1: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_fluorquinolones = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+---
+quality = 0.09099097878760111
+coverage = 0.40758483033932136
+diversity = 0.7999999999999999
+number_of_subgroups = 6
+---
+Start time: 2026-10-12 15:50:23.118983
+End time: 2026-10-12 15:50:46.226817

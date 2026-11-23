@@ -1,0 +1,8 @@
+without_context: 2505 instances, 3218 candidate subgroups.
+with_context: 2505 instances, 4914 candidate subgroups.
+unit_MICU: 731 instances, 3407 candidate subgroups.
+unit_SICU: 423 instances, 3841 candidate subgroups.
+unit_TSICU: 239 instances, 1557 candidate subgroups.
+unit_CCU: 208 instances, 2126 candidate subgroups.
+unit_CSRU: 145 instances, 2169 candidate subgroups.
+unit_NO_ICU: 759 instances, 3719 candidate subgroups.

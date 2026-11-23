@@ -1,0 +1,7 @@
+metric,model_a,model_b,mean_difference,wilcoxon_statistic,p_value
+auc_roc,with_context,without_context,-0.012288427476662988,14.0,0.193359375
+auc_roc,per_unit,without_context,-0.01478035888972713,18.0,0.375
+auc_roc,per_unit,with_context,-0.0024919314130641412,27.0,1.0
+auc_pr,with_context,without_context,0.008194198880347048,17.0,0.322265625
+auc_pr,per_unit,without_context,-0.00838252603861116,17.0,0.322265625
+auc_pr,per_unit,with_context,-0.01657672491895821,17.0,0.322265625

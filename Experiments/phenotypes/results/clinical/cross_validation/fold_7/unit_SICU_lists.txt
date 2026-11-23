@@ -1,0 +1,66 @@
+Dataset information:
+	- Number of instances: 372.
+	- Number of positive instances: 132.
+	- Number of negative instances: 240.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3569.
+Input file read.
+
+
+## Subgroup list (2 subgroups) ##
+s1: Description: [mechanical_ventilation_in_previous_admissions = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 21
+	- negative instances covered: 1
+	- total instances covered: 22
+	Considering it individually:
+	- positive instances covered: 21
+	- negative instances covered: 1
+	- total instances covered: 22
+s2: Description: [admission_location = 'TRANSFER_FROM_HOSPITAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 33
+	- negative instances covered: 13
+	- total instances covered: 46
+	Considering it individually:
+	- positive instances covered: 34
+	- negative instances covered: 13
+	- total instances covered: 47
+default rule:
+	positive instances covered: 78
+	negative instances covered: 226
+	total instances covered: 304
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 34
+	- negative instances covered: 10
+	- total instances covered: 44
+	Considering it individually:
+	- positive instances covered: 34
+	- negative instances covered: 10
+	- total instances covered: 44
+default rule:
+	positive instances covered: 98
+	negative instances covered: 230
+	total instances covered: 328
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [mechanical_ventilation_in_previous_admissions = 'yes', previous_isolation_of_acinetobacter_baumannii = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 22
+	- negative instances covered: 2
+	- total instances covered: 24
+	Considering it individually:
+	- positive instances covered: 22
+	- negative instances covered: 2
+	- total instances covered: 24
+default rule:
+	positive instances covered: 110
+	negative instances covered: 238
+	total instances covered: 348
+

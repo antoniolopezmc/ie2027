@@ -1,0 +1,21 @@
+Configuration: unit_TSICU
+Number of instances: 239
+Number of attributes: 25
+Number of instances in which the target is true: 52
+Number of instances in which the target is false: 187
+beta_parameter = 0.3
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.1
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (0 subgroups) ##
+## Subgroup list 3 (0 subgroups) ##
+---
+quality = 0.0252621627772623
+coverage = 0.401673640167364
+diversity = 1.0
+number_of_subgroups = 1
+---
+Start time: 2026-10-12 16:07:37.413314
+End time: 2026-10-12 16:07:38.678946

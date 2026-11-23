@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 687.
+	- Number of positive instances: 190.
+	- Number of negative instances: 497.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3973.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 90
+	- negative instances covered: 74
+	- total instances covered: 164
+	Considering it individually:
+	- positive instances covered: 90
+	- negative instances covered: 74
+	- total instances covered: 164
+default rule:
+	positive instances covered: 100
+	negative instances covered: 423
+	total instances covered: 523
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_exposure_to_fluorquinolones = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 84
+	- negative instances covered: 82
+	- total instances covered: 166
+	Considering it individually:
+	- positive instances covered: 84
+	- negative instances covered: 82
+	- total instances covered: 166
+default rule:
+	positive instances covered: 106
+	negative instances covered: 415
+	total instances covered: 521
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_exposure_to_antifungal_agents = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 59
+	- negative instances covered: 50
+	- total instances covered: 109
+	Considering it individually:
+	- positive instances covered: 59
+	- negative instances covered: 50
+	- total instances covered: 109
+default rule:
+	positive instances covered: 131
+	negative instances covered: 447
+	total instances covered: 578
+

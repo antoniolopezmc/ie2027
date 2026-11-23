@@ -1,0 +1,23 @@
+Configuration: unit_NO_ICU
+Number of instances: 759
+Number of attributes: 25
+Number of instances in which the target is true: 213
+Number of instances in which the target is false: 546
+beta_parameter = 0.3
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.3
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes']
+## Subgroup list 2 (1 subgroups) ##
+s1: [previous_exposure_to_fluorquinolones = 'yes']
+## Subgroup list 3 (1 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes']
+---
+quality = 0.051004980202436816
+coverage = 0.2898550724637681
+diversity = 1.0
+number_of_subgroups = 3
+---
+Start time: 2026-10-12 16:09:03.930436
+End time: 2026-10-12 16:09:09.921799

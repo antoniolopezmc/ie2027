@@ -1,0 +1,54 @@
+Dataset information:
+	- Number of instances: 2505.
+	- Number of positive instances: 829.
+	- Number of negative instances: 1676.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3218.
+Input file read.
+
+
+## Subgroup list (4 subgroups) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 194
+	- negative instances covered: 73
+	- total instances covered: 267
+	Considering it individually:
+	- positive instances covered: 194
+	- negative instances covered: 73
+	- total instances covered: 267
+s2: Description: [admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 103
+	- negative instances covered: 65
+	- total instances covered: 168
+	Considering it individually:
+	- positive instances covered: 103
+	- negative instances covered: 65
+	- total instances covered: 168
+s3: Description: [admission_location = 'REFERRAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 132
+	- negative instances covered: 115
+	- total instances covered: 247
+	Considering it individually:
+	- positive instances covered: 199
+	- negative instances covered: 141
+	- total instances covered: 340
+s4: Description: [admission_location = 'REFERRAL', previous_isolation_of_sarm = 'no'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 79
+	- negative instances covered: 333
+	- total instances covered: 412
+	Considering it individually:
+	- positive instances covered: 271
+	- negative instances covered: 467
+	- total instances covered: 738
+default rule:
+	positive instances covered: 321
+	negative instances covered: 1090
+	total instances covered: 1411
+

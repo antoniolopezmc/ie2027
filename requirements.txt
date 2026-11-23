@@ -1,0 +1,10 @@
+subgroups==0.1.12
+bitarray
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+matplotlib
+shap
+jupyter

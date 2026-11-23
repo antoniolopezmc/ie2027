@@ -1,0 +1,228 @@
+Dataset information:
+	- Number of instances: 2505.
+	- Number of positive instances: 853.
+	- Number of negative instances: 1652.
+	- Total number of attributes (including the target): 28.
+
+
+Reading input file.
+Read subgroups: 4891.
+Input file read.
+
+
+## Subgroup list (6 subgroups) ##
+s1: Description: [previous_isolation_of_pseudomonas_aeruginosa = 'no', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 144
+	- negative instances covered: 34
+	- total instances covered: 178
+	Considering it individually:
+	- positive instances covered: 144
+	- negative instances covered: 34
+	- total instances covered: 178
+s2: Description: [service_when_culture = 'OMED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 35
+	- negative instances covered: 5
+	- total instances covered: 40
+	Considering it individually:
+	- positive instances covered: 45
+	- negative instances covered: 5
+	- total instances covered: 50
+s3: Description: [hours_from_admission_to_first_icu = '83<x', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 85
+	- negative instances covered: 38
+	- total instances covered: 123
+	Considering it individually:
+	- positive instances covered: 116
+	- negative instances covered: 43
+	- total instances covered: 159
+s4: Description: [previous_exposure_to_carbapenems = 'yes', service_when_culture = 'MED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 32
+	- negative instances covered: 9
+	- total instances covered: 41
+	Considering it individually:
+	- positive instances covered: 49
+	- negative instances covered: 10
+	- total instances covered: 59
+s5: Description: [admission_location = 'TRANSFER_FROM_HOSPITAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 84
+	- negative instances covered: 64
+	- total instances covered: 148
+	Considering it individually:
+	- positive instances covered: 148
+	- negative instances covered: 78
+	- total instances covered: 226
+s6: Description: [patient_age = 'ADULT'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 194
+	- negative instances covered: 554
+	- total instances covered: 748
+	Considering it individually:
+	- positive instances covered: 391
+	- negative instances covered: 632
+	- total instances covered: 1023
+default rule:
+	positive instances covered: 279
+	negative instances covered: 948
+	total instances covered: 1227
+
+## Subgroup list (9 subgroups) ##
+s1: Description: [previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 172
+	- negative instances covered: 49
+	- total instances covered: 221
+	Considering it individually:
+	- positive instances covered: 172
+	- negative instances covered: 49
+	- total instances covered: 221
+s2: Description: [previous_isolation_of_enterobacterales_cre = 'no', service_when_culture = 'OMED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 46
+	- negative instances covered: 11
+	- total instances covered: 57
+	Considering it individually:
+	- positive instances covered: 56
+	- negative instances covered: 11
+	- total instances covered: 67
+s3: Description: [hours_from_admission_to_first_icu = '83<x', service_when_culture = 'MED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 50
+	- negative instances covered: 19
+	- total instances covered: 69
+	Considering it individually:
+	- positive instances covered: 59
+	- negative instances covered: 19
+	- total instances covered: 78
+s4: Description: [icu_when_culture = 'CSRU', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 34
+	- negative instances covered: 11
+	- total instances covered: 45
+	Considering it individually:
+	- positive instances covered: 52
+	- negative instances covered: 13
+	- total instances covered: 65
+s5: Description: [admission_type = 'EMERGENCY', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 95
+	- negative instances covered: 57
+	- total instances covered: 152
+	Considering it individually:
+	- positive instances covered: 127
+	- negative instances covered: 65
+	- total instances covered: 192
+s6: Description: [service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 121
+	- negative instances covered: 107
+	- total instances covered: 228
+	Considering it individually:
+	- positive instances covered: 242
+	- negative instances covered: 134
+	- total instances covered: 376
+s7: Description: [admission_location = 'REFERRAL'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 112
+	- negative instances covered: 390
+	- total instances covered: 502
+	Considering it individually:
+	- positive instances covered: 272
+	- negative instances covered: 445
+	- total instances covered: 717
+s8: Description: [previous_exposure_to_b_lactam = 'no', previous_exposure_to_third_generation_cephalosporins = 'no', service_when_culture = 'MED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 54
+	- negative instances covered: 270
+	- total instances covered: 324
+	Considering it individually:
+	- positive instances covered: 275
+	- negative instances covered: 459
+	- total instances covered: 734
+s9: Description: [previous_exposure_to_third_generation_cephalosporins = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 33
+	- negative instances covered: 21
+	- total instances covered: 54
+	Considering it individually:
+	- positive instances covered: 116
+	- negative instances covered: 65
+	- total instances covered: 181
+default rule:
+	positive instances covered: 136
+	negative instances covered: 717
+	total instances covered: 853
+
+## Subgroup list (7 subgroups) ##
+s1: Description: [previous_exposure_to_b_lactam = 'yes', previous_isolation_of_pseudomonas_aeruginosa = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 89
+	- negative instances covered: 17
+	- total instances covered: 106
+	Considering it individually:
+	- positive instances covered: 89
+	- negative instances covered: 17
+	- total instances covered: 106
+s2: Description: [previous_exposure_to_b_lactam = 'no', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 67
+	- negative instances covered: 17
+	- total instances covered: 84
+	Considering it individually:
+	- positive instances covered: 67
+	- negative instances covered: 17
+	- total instances covered: 84
+s3: Description: [organ_transplant_in_previous_admissions = 'no', service_when_culture = 'OMED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 47
+	- negative instances covered: 12
+	- total instances covered: 59
+	Considering it individually:
+	- positive instances covered: 57
+	- negative instances covered: 12
+	- total instances covered: 69
+s4: Description: [admission_type = 'EMERGENCY', hours_from_admission_to_first_icu = '83<x'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 117
+	- negative instances covered: 76
+	- total instances covered: 193
+	Considering it individually:
+	- positive instances covered: 149
+	- negative instances covered: 77
+	- total instances covered: 226
+s5: Description: [readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 256
+	- negative instances covered: 285
+	- total instances covered: 541
+	Considering it individually:
+	- positive instances covered: 351
+	- negative instances covered: 323
+	- total instances covered: 674
+s6: Description: [icu_when_culture = 'MICU', previous_exposure_to_third_generation_cephalosporins = 'no'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 65
+	- negative instances covered: 262
+	- total instances covered: 327
+	Considering it individually:
+	- positive instances covered: 259
+	- negative instances covered: 385
+	- total instances covered: 644
+s7: Description: [admission_location = 'TRANSFER_FROM_HOSPITAL', previous_exposure_to_carbapenems = 'no'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 35
+	- negative instances covered: 177
+	- total instances covered: 212
+	Considering it individually:
+	- positive instances covered: 208
+	- negative instances covered: 321
+	- total instances covered: 529
+default rule:
+	positive instances covered: 177
+	negative instances covered: 806
+	total instances covered: 983
+

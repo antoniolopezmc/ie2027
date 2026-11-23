@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 379.
+	- Number of positive instances: 136.
+	- Number of negative instances: 243.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3822.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 34
+	- negative instances covered: 11
+	- total instances covered: 45
+	Considering it individually:
+	- positive instances covered: 34
+	- negative instances covered: 11
+	- total instances covered: 45
+default rule:
+	positive instances covered: 102
+	negative instances covered: 232
+	total instances covered: 334
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 111
+	- negative instances covered: 80
+	- total instances covered: 191
+	Considering it individually:
+	- positive instances covered: 111
+	- negative instances covered: 80
+	- total instances covered: 191
+default rule:
+	positive instances covered: 25
+	negative instances covered: 163
+	total instances covered: 188
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 110
+	- negative instances covered: 78
+	- total instances covered: 188
+	Considering it individually:
+	- positive instances covered: 110
+	- negative instances covered: 78
+	- total instances covered: 188
+default rule:
+	positive instances covered: 26
+	negative instances covered: 165
+	total instances covered: 191
+

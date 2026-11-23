@@ -1,0 +1,34 @@
+Configuration: with_context
+Number of instances: 2505
+Number of attributes: 28
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 1.0
+maximum_positive_overlap = 0.6
+maximum_negative_overlap = 0.1
+---
+## Subgroup list 1 (4 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [service_when_culture = 'OMED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s4: [admission_type = 'EMERGENCY', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (5 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_third_generation_cephalosporins = 'no', service_when_culture = 'OMED']
+s3: [previous_exposure_to_fluorquinolones = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s4: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s5: [previous_isolation_of_pseudomonas_aeruginosa = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 3 (5 subgroups) ##
+s1: [icu_when_culture = 'MICU', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [organ_transplant_in_previous_admissions = 'no', service_when_culture = 'OMED']
+s3: [admission_type = 'EMERGENCY', hours_from_admission_to_first_icu = '83<x', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s4: [readmission = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s5: [previous_exposure_to_antifungal_agents = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+---
+quality = 0.10547065549539643
+coverage = 0.3281437125748503
+diversity = 0.5536701860231272
+number_of_subgroups = 14
+---
+Start time: 2026-10-12 16:03:25.607480
+End time: 2026-10-12 16:04:34.902798

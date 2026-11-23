@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 759.
+	- Number of positive instances: 213.
+	- Number of negative instances: 546.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3719.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 82
+	- negative instances covered: 59
+	- total instances covered: 141
+	Considering it individually:
+	- positive instances covered: 82
+	- negative instances covered: 59
+	- total instances covered: 141
+default rule:
+	positive instances covered: 131
+	negative instances covered: 487
+	total instances covered: 618
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [admission_location = 'REFERRAL', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 49
+	- negative instances covered: 29
+	- total instances covered: 78
+	Considering it individually:
+	- positive instances covered: 49
+	- negative instances covered: 29
+	- total instances covered: 78
+default rule:
+	positive instances covered: 164
+	negative instances covered: 517
+	total instances covered: 681
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_isolation_of_acinetobacter_baumannii = 'no', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 94
+	- negative instances covered: 78
+	- total instances covered: 172
+	Considering it individually:
+	- positive instances covered: 94
+	- negative instances covered: 78
+	- total instances covered: 172
+default rule:
+	positive instances covered: 119
+	negative instances covered: 468
+	total instances covered: 587
+

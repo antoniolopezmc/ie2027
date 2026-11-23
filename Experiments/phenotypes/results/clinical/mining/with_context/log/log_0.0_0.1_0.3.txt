@@ -1,0 +1,26 @@
+Configuration: with_context
+Number of instances: 2505
+Number of attributes: 28
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 0.0
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.3
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (3 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes']
+s2: [service_when_culture = 'OMED']
+s3: [hours_from_admission_to_first_icu = '83<x', previous_exposure_to_b_lactam = 'no']
+## Subgroup list 3 (2 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes']
+s2: [hours_from_admission_to_first_icu = '83<x', previous_exposure_to_antifungal_agents = 'no']
+---
+quality = 0.0763126840132111
+coverage = 0.5341317365269461
+diversity = 0.9444444444444444
+number_of_subgroups = 6
+---
+Start time: 2026-10-12 15:54:13.637415
+End time: 2026-10-12 15:54:42.724467

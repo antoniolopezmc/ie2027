@@ -1,0 +1,24 @@
+Configuration: with_context
+Number of instances: 2505
+Number of attributes: 28
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 0.3
+maximum_positive_overlap = 0.3
+maximum_negative_overlap = 0.6
+---
+## Subgroup list 1 (2 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [treated_with_vancomycin_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (1 subgroups) ##
+s1: [admission_type = 'EMERGENCY', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 3 (1 subgroups) ##
+s1: [previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+---
+quality = 0.09063581419994345
+coverage = 0.40758483033932136
+diversity = 0.7222222222222223
+number_of_subgroups = 4
+---
+Start time: 2026-10-12 15:56:47.386737
+End time: 2026-10-12 15:57:15.059421

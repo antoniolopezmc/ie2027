@@ -1,0 +1,43 @@
+|--- treated_with_vancomycin_in_the_current_admission_before_culture_yes <= 0.50
+|   |--- treated_with_vancomycin_in_previous_admissions_yes <= 0.50
+|   |   |--- hours_from_admission_to_first_icu_83<x <= 0.50
+|   |   |   |--- culture_specimen_type_URINE <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- culture_specimen_type_URINE >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- hours_from_admission_to_first_icu_83<x >  0.50
+|   |   |   |--- icu_when_culture_SICU <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- icu_when_culture_SICU >  0.50
+|   |   |   |   |--- class: 0
+|   |--- treated_with_vancomycin_in_previous_admissions_yes >  0.50
+|   |   |--- admission_location_EMERGENCY_ROOM <= 0.50
+|   |   |   |--- catheter_in_previous_admissions_yes <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- catheter_in_previous_admissions_yes >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- admission_location_EMERGENCY_ROOM >  0.50
+|   |   |   |--- previous_exposure_to_b_lactam_no <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- previous_exposure_to_b_lactam_no >  0.50
+|   |   |   |   |--- class: 0
+|--- treated_with_vancomycin_in_the_current_admission_before_culture_yes >  0.50
+|   |--- treated_with_vancomycin_in_previous_admissions_no <= 0.50
+|   |   |--- service_when_culture_NO_SERVICE <= 0.50
+|   |   |   |--- culture_specimen_type_ABSCESS_TISSUE_WOUND <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- culture_specimen_type_ABSCESS_TISSUE_WOUND >  0.50
+|   |   |   |   |--- class: 1
+|   |   |--- service_when_culture_NO_SERVICE >  0.50
+|   |   |   |--- class: 0
+|   |--- treated_with_vancomycin_in_previous_admissions_no >  0.50
+|   |   |--- service_when_culture_NO_SERVICE <= 0.50
+|   |   |   |--- culture_specimen_type_ABSCESS_TISSUE_WOUND <= 0.50
+|   |   |   |   |--- class: 1
+|   |   |   |--- culture_specimen_type_ABSCESS_TISSUE_WOUND >  0.50
+|   |   |   |   |--- class: 0
+|   |   |--- service_when_culture_NO_SERVICE >  0.50
+|   |   |   |--- patient_gender_F <= 0.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- patient_gender_F >  0.50
+|   |   |   |   |--- class: 0

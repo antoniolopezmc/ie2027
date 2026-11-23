@@ -1,0 +1,46 @@
+configuration,list,position,description
+without_context,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,1,2,"[admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,1,3,"[admission_location = 'REFERRAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,1,4,"[admission_location = 'REFERRAL', previous_isolation_of_sarm = 'no']"
+without_context,2,1,"[previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,2,2,"[previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,2,3,"[patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']"
+without_context,2,4,"[admission_location = 'REFERRAL', organ_transplant_in_previous_admissions = 'no']"
+without_context,3,1,"[previous_exposure_to_antifungal_agents = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,3,2,"[admission_location = 'TRANSFER_FROM_HOSPITAL', mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,3,3,"[previous_isolation_of_enterobacterales_cre = 'no', treated_with_vancomycin_in_previous_admissions = 'yes']"
+without_context,3,4,"[treated_with_vancomycin_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+without_context,3,5,"[admission_location = 'REFERRAL', previous_exposure_to_aminoglycosides = 'no']"
+without_context,3,6,"[organ_transplant_in_previous_admissions = 'no', patient_age = 'ADULT', previous_isolation_of_enterobacterales_cre = 'no']"
+with_context,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,1,2,"[service_when_culture = 'OMED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,1,3,"[readmission = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,1,4,"[admission_type = 'EMERGENCY', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,1,5,"[patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']"
+with_context,2,1,"[previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,2,2,"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,2,3,"[previous_exposure_to_third_generation_cephalosporins = 'no', service_when_culture = 'OMED']"
+with_context,2,4,"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,2,5,"[patient_age = 'ADULT', previous_isolation_of_erv = 'no']"
+with_context,3,1,"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,3,2,"[previous_exposure_to_fluorquinolones = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,3,3,"[organ_transplant_in_previous_admissions = 'no', service_when_culture = 'OMED']"
+with_context,3,4,"[previous_isolation_of_pseudomonas_aeruginosa = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+with_context,3,5,"[patient_age = 'ADULT', previous_exposure_to_carbapenems = 'no']"
+with_context,3,6,[admission_location = 'REFERRAL']
+unit_MICU,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_MICU,2,1,"[hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_MICU,2,2,[patient_gender = 'F']
+unit_MICU,3,1,"[previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_MICU,3,2,[patient_age = 'ADULT']
+unit_SICU,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_SICU,2,1,"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_SICU,3,1,"[mechanical_ventilation_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_SICU,3,2,"[mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']"
+unit_TSICU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+unit_CCU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+unit_CSRU,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+unit_NO_ICU,1,1,[treated_with_vancomycin_in_previous_admissions = 'yes']
+unit_NO_ICU,2,1,[previous_exposure_to_fluorquinolones = 'yes']
+unit_NO_ICU,3,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']

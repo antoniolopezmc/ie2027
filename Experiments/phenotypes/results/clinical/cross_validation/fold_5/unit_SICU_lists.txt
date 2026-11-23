@@ -1,0 +1,39 @@
+Dataset information:
+	- Number of instances: 383.
+	- Number of positive instances: 143.
+	- Number of negative instances: 240.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3676.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 117
+	- negative instances covered: 82
+	- total instances covered: 199
+	Considering it individually:
+	- positive instances covered: 117
+	- negative instances covered: 82
+	- total instances covered: 199
+default rule:
+	positive instances covered: 26
+	negative instances covered: 158
+	total instances covered: 184
+
+## Subgroup list (0 subgroups) ##
+default rule:
+	positive instances covered: 143
+	negative instances covered: 240
+	total instances covered: 383
+
+## Subgroup list (0 subgroups) ##
+default rule:
+	positive instances covered: 143
+	negative instances covered: 240
+	total instances covered: 383
+

@@ -1,0 +1,23 @@
+Configuration: unit_NO_ICU
+Number of instances: 759
+Number of attributes: 25
+Number of instances in which the target is true: 213
+Number of instances in which the target is false: 546
+beta_parameter = 1.0
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.3
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes']
+## Subgroup list 2 (1 subgroups) ##
+s1: [admission_location = 'REFERRAL', treated_with_vancomycin_in_previous_admissions = 'yes']
+## Subgroup list 3 (1 subgroups) ##
+s1: [previous_isolation_of_acinetobacter_baumannii = 'no', treated_with_vancomycin_in_previous_admissions = 'yes']
+---
+quality = 0.05062482532838264
+coverage = 0.230566534914361
+diversity = 0.6666666666666667
+number_of_subgroups = 3
+---
+Start time: 2026-10-12 16:09:50.245834
+End time: 2026-10-12 16:09:58.818143

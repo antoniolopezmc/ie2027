@@ -1,0 +1,24 @@
+Configuration: unit_MICU
+Number of instances: 731
+Number of attributes: 25
+Number of instances in which the target is true: 315
+Number of instances in which the target is false: 416
+beta_parameter = 1.0
+maximum_positive_overlap = 0.3
+maximum_negative_overlap = 0.3
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (1 subgroups) ##
+s1: [readmission = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 3 (2 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+---
+quality = 0.06699216447308094
+coverage = 0.5006839945280438
+diversity = 0.7222222222222223
+number_of_subgroups = 4
+---
+Start time: 2026-10-12 16:06:02.699036
+End time: 2026-10-12 16:06:11.068631

@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 423.
+	- Number of positive instances: 151.
+	- Number of negative instances: 272.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3841.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 38
+	- negative instances covered: 12
+	- total instances covered: 50
+	Considering it individually:
+	- positive instances covered: 38
+	- negative instances covered: 12
+	- total instances covered: 50
+default rule:
+	positive instances covered: 113
+	negative instances covered: 260
+	total instances covered: 373
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [admission_type = 'EMERGENCY', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 114
+	- negative instances covered: 76
+	- total instances covered: 190
+	Considering it individually:
+	- positive instances covered: 114
+	- negative instances covered: 76
+	- total instances covered: 190
+default rule:
+	positive instances covered: 37
+	negative instances covered: 196
+	total instances covered: 233
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 36
+	- negative instances covered: 12
+	- total instances covered: 48
+	Considering it individually:
+	- positive instances covered: 36
+	- negative instances covered: 12
+	- total instances covered: 48
+default rule:
+	positive instances covered: 115
+	negative instances covered: 260
+	total instances covered: 375
+

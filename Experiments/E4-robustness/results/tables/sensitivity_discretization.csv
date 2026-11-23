@@ -1,0 +1,3 @@
+analysis,number_of_lists,number_of_subgroups,mean_subgroups_per_list,quality,coverage,diversity,context_proportion,instances
+with_context_original_discretization,3,16,5.333333333333333,0.12022629391914774,0.6942115768463074,0.6111111111111112,0.5625,
+with_context_alternative_discretization,3,16,5.333333333333333,0.12022629391914774,0.6942115768463074,0.6111111111111112,0.5625,2505.0

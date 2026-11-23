@@ -1,0 +1,16 @@
+unit,unit_rate,list,position,phenotype,n,phenotype_rate,lift,label
+MICU,0.43091655266757867,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",97,0.8041237113402062,1.8660775650466372,TRANSVERSAL
+MICU,0.43091655266757867,2,1,"[hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",366,0.6311475409836066,1.4646630236794171,SPACE_MODULATED
+MICU,0.43091655266757867,2,2,[patient_gender = 'F'],377,0.4588859416445623,1.0649067407688098,NOT_ASSOCIATED
+MICU,0.43091655266757867,3,1,"[previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",356,0.6348314606741573,1.4732120563581237,SPACE_MODULATED
+MICU,0.43091655266757867,3,2,[patient_age = 'ADULT'],338,0.46745562130177515,1.0847938386399925,TRANSVERSAL
+SICU,0.35697399527186763,1,1,"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",50,0.76,2.129006622516556,TRANSVERSAL
+SICU,0.35697399527186763,2,1,"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",48,0.75,2.1009933774834435,TRANSVERSAL
+SICU,0.35697399527186763,3,1,"[mechanical_ventilation_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",29,0.8275862068965517,2.3183375199817307,TRANSVERSAL
+SICU,0.35697399527186763,3,2,"[mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",184,0.5434782608695652,1.5224589691909012,TRANSVERSAL
+TSICU,0.2175732217573222,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],96,0.40625,1.8671875,SPACE_MODULATED
+CCU,0.1778846153846154,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],55,0.43636363636363634,2.453071253071253,SPACE_MODULATED
+CSRU,0.4206896551724138,1,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],68,0.6911764705882353,1.642960462873674,SPACE_MODULATED
+NO_ICU,0.28063241106719367,1,1,[treated_with_vancomycin_in_previous_admissions = 'yes'],176,0.5397727272727273,1.9234154929577467,TRANSVERSAL
+NO_ICU,0.28063241106719367,2,1,[previous_exposure_to_fluorquinolones = 'yes'],181,0.5027624309392266,1.7915337327834413,TRANSVERSAL
+NO_ICU,0.28063241106719367,3,1,[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],223,0.4663677130044843,1.661845512537106,SPACE_MODULATED

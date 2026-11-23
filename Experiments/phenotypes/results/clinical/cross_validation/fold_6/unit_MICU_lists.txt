@@ -1,0 +1,66 @@
+Dataset information:
+	- Number of instances: 663.
+	- Number of positive instances: 288.
+	- Number of negative instances: 375.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3172.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 67
+	- negative instances covered: 16
+	- total instances covered: 83
+	Considering it individually:
+	- positive instances covered: 67
+	- negative instances covered: 16
+	- total instances covered: 83
+default rule:
+	positive instances covered: 221
+	negative instances covered: 359
+	total instances covered: 580
+
+## Subgroup list (2 subgroups) ##
+s1: Description: [hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 209
+	- negative instances covered: 119
+	- total instances covered: 328
+	Considering it individually:
+	- positive instances covered: 209
+	- negative instances covered: 119
+	- total instances covered: 328
+s2: Description: [patient_gender = 'F'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 48
+	- negative instances covered: 136
+	- total instances covered: 184
+	Considering it individually:
+	- positive instances covered: 158
+	- negative instances covered: 187
+	- total instances covered: 345
+default rule:
+	positive instances covered: 31
+	negative instances covered: 120
+	total instances covered: 151
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 204
+	- negative instances covered: 115
+	- total instances covered: 319
+	Considering it individually:
+	- positive instances covered: 204
+	- negative instances covered: 115
+	- total instances covered: 319
+default rule:
+	positive instances covered: 84
+	negative instances covered: 260
+	total instances covered: 344
+

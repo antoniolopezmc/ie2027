@@ -1,0 +1,31 @@
+without_context: 2505 instances, 3218 candidate subgroups.
+with_context: 2505 instances, 4914 candidate subgroups.
+unit_MICU: 731 instances, 3407 candidate subgroups.
+unit_SICU: 423 instances, 3841 candidate subgroups.
+unit_TSICU: 239 instances, 1557 candidate subgroups.
+unit_CCU: 208 instances, 2126 candidate subgroups.
+unit_CSRU: 145 instances, 2169 candidate subgroups.
+unit_NO_ICU: 759 instances, 3719 candidate subgroups.
+Number of DSLM executions: 432
+20/432 (0:01:18.577780)
+40/432 (0:03:34.884073)
+60/432 (0:06:24.245511)
+80/432 (0:09:04.467546)
+100/432 (0:13:56.115251)
+120/432 (0:16:14.733091)
+140/432 (0:16:52.244172)
+160/432 (0:17:32.881801)
+180/432 (0:17:56.708026)
+200/432 (0:18:21.328315)
+220/432 (0:18:49.692333)
+240/432 (0:18:56.354007)
+260/432 (0:19:02.886016)
+280/432 (0:19:11.220278)
+300/432 (0:19:19.987701)
+320/432 (0:19:28.624814)
+340/432 (0:19:36.642596)
+360/432 (0:19:45.157458)
+380/432 (0:19:58.685846)
+400/432 (0:20:30.437154)
+420/432 (0:21:06.463203)
+Total time: 0:21:32.485110

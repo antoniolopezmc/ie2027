@@ -1,0 +1,3 @@
+analysis,number_of_lists,number_of_subgroups,mean_subgroups_per_list,quality,coverage,diversity,context_proportion,instances,proportion_of_subgroups_with_swab
+all_specimens_without_context,3,14,4.666666666666667,0.12770162829336398,0.643154857326066,0.5723905723905724,0.0,3119,0.42857142857142855
+all_specimens_with_context,3,19,6.333333333333333,0.16093298620366173,0.7691567810195575,0.7209653092006032,0.631578947368421,3119,0.42105263157894735

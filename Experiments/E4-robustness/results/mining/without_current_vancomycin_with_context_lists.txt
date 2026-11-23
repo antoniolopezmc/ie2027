@@ -1,0 +1,102 @@
+Dataset information:
+	- Number of instances: 2505.
+	- Number of positive instances: 829.
+	- Number of negative instances: 1676.
+	- Total number of attributes (including the target): 27.
+
+
+Reading input file.
+Read subgroups: 4067.
+Input file read.
+
+
+## Subgroup list (5 subgroups) ##
+s1: Description: [service_when_culture = 'OMED'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 57
+	- negative instances covered: 19
+	- total instances covered: 76
+	Considering it individually:
+	- positive instances covered: 57
+	- negative instances covered: 19
+	- total instances covered: 76
+s2: Description: [service_when_culture = 'MED', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 135
+	- negative instances covered: 64
+	- total instances covered: 199
+	Considering it individually:
+	- positive instances covered: 135
+	- negative instances covered: 64
+	- total instances covered: 199
+s3: Description: [hours_from_admission_to_first_icu = '83<x'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 113
+	- negative instances covered: 92
+	- total instances covered: 205
+	Considering it individually:
+	- positive instances covered: 141
+	- negative instances covered: 97
+	- total instances covered: 238
+s4: Description: [previous_exposure_to_fluorquinolones = 'yes', previous_isolation_of_enterobacterales_cre = 'no', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 72
+	- negative instances covered: 45
+	- total instances covered: 117
+	Considering it individually:
+	- positive instances covered: 158
+	- negative instances covered: 81
+	- total instances covered: 239
+s5: Description: [admission_location = 'REFERRAL'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 125
+	- negative instances covered: 394
+	- total instances covered: 519
+	Considering it individually:
+	- positive instances covered: 285
+	- negative instances covered: 478
+	- total instances covered: 763
+default rule:
+	positive instances covered: 327
+	negative instances covered: 1062
+	total instances covered: 1389
+
+## Subgroup list (2 subgroups) ##
+s1: Description: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 175
+	- negative instances covered: 93
+	- total instances covered: 268
+	Considering it individually:
+	- positive instances covered: 175
+	- negative instances covered: 93
+	- total instances covered: 268
+s2: Description: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 111
+	- negative instances covered: 97
+	- total instances covered: 208
+	Considering it individually:
+	- positive instances covered: 111
+	- negative instances covered: 97
+	- total instances covered: 208
+default rule:
+	positive instances covered: 543
+	negative instances covered: 1486
+	total instances covered: 2029
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [admission_type = 'EMERGENCY', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 227
+	- negative instances covered: 132
+	- total instances covered: 359
+	Considering it individually:
+	- positive instances covered: 227
+	- negative instances covered: 132
+	- total instances covered: 359
+default rule:
+	positive instances covered: 602
+	negative instances covered: 1544
+	total instances covered: 2146
+

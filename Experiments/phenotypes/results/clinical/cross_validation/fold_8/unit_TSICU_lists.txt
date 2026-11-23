@@ -1,0 +1,30 @@
+Dataset information:
+	- Number of instances: 216.
+	- Number of positive instances: 49.
+	- Number of negative instances: 167.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 1423.
+Input file read.
+
+
+## Subgroup list (0 subgroups) ##
+default rule:
+	positive instances covered: 49
+	negative instances covered: 167
+	total instances covered: 216
+
+## Subgroup list (0 subgroups) ##
+default rule:
+	positive instances covered: 49
+	negative instances covered: 167
+	total instances covered: 216
+
+## Subgroup list (0 subgroups) ##
+default rule:
+	positive instances covered: 49
+	negative instances covered: 167
+	total instances covered: 216
+

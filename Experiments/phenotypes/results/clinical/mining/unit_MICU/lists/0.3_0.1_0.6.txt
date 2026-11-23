@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 731.
+	- Number of positive instances: 315.
+	- Number of negative instances: 416.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3407.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 78
+	- negative instances covered: 19
+	- total instances covered: 97
+	Considering it individually:
+	- positive instances covered: 78
+	- negative instances covered: 19
+	- total instances covered: 97
+default rule:
+	positive instances covered: 237
+	negative instances covered: 397
+	total instances covered: 634
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 231
+	- negative instances covered: 135
+	- total instances covered: 366
+	Considering it individually:
+	- positive instances covered: 231
+	- negative instances covered: 135
+	- total instances covered: 366
+default rule:
+	positive instances covered: 84
+	negative instances covered: 281
+	total instances covered: 365
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 226
+	- negative instances covered: 130
+	- total instances covered: 356
+	Considering it individually:
+	- positive instances covered: 226
+	- negative instances covered: 130
+	- total instances covered: 356
+default rule:
+	positive instances covered: 89
+	negative instances covered: 286
+	total instances covered: 375
+

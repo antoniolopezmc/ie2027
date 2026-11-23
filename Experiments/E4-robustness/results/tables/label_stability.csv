@@ -1,0 +1,38 @@
+description,label,i2,label_stability
+"[treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.885
+"[admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.89
+"[admission_location = 'REFERRAL', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.1202622623057718,0.71
+"[admission_location = 'REFERRAL', previous_isolation_of_sarm = 'no']",SPACE_SPECIFIC,0.6620839076986699,0.745
+"[previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.91
+"[previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.4122482773375435,0.565
+"[patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']",TRANSVERSAL,0.0,0.595
+"[admission_location = 'REFERRAL', organ_transplant_in_previous_admissions = 'no']",SPACE_SPECIFIC,0.6759839841305778,0.775
+"[previous_exposure_to_antifungal_agents = 'yes', previous_isolation_of_stenotrophomonas_maltophilia = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.955
+"[admission_location = 'TRANSFER_FROM_HOSPITAL', mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0685219742554756,0.785
+"[previous_isolation_of_enterobacterales_cre = 'no', treated_with_vancomycin_in_previous_admissions = 'yes']",TRANSVERSAL,0.0,0.785
+"[treated_with_vancomycin_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.4141649473295063,0.57
+"[admission_location = 'REFERRAL', previous_exposure_to_aminoglycosides = 'no']",SPACE_SPECIFIC,0.6703056096806003,0.725
+"[organ_transplant_in_previous_admissions = 'no', patient_age = 'ADULT', previous_isolation_of_enterobacterales_cre = 'no']",NOT_ASSOCIATED,0.0,0.53
+"[service_when_culture = 'OMED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",SPACE_MODULATED,0.6904747256386551,0.76
+"[readmission = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.865
+"[admission_type = 'EMERGENCY', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",SPACE_MODULATED,0.6999750853836857,0.77
+"[previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.97
+"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.4122482773375435,0.565
+"[previous_exposure_to_third_generation_cephalosporins = 'no', service_when_culture = 'OMED']",CONTEXT_DRIVEN,0.0,0.885
+"[previous_exposure_to_antifungal_agents = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.4122482773375435,0.565
+"[patient_age = 'ADULT', previous_isolation_of_erv = 'no']",TRANSVERSAL,0.0,0.555
+"[previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0,0.81
+"[previous_exposure_to_fluorquinolones = 'no', service_when_culture = 'MED', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.0114423632406691,0.79
+"[organ_transplant_in_previous_admissions = 'no', service_when_culture = 'OMED']",CONTEXT_DRIVEN,0.0,0.99
+"[previous_isolation_of_pseudomonas_aeruginosa = 'no', service_when_culture = 'SURG', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.5696024921938384,0.425
+"[patient_age = 'ADULT', previous_exposure_to_carbapenems = 'no']",TRANSVERSAL,0.0,0.52
+[admission_location = 'REFERRAL'],SPACE_SPECIFIC,0.710278809776886,0.805
+"[hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",SPACE_MODULATED,0.6789223026350181,0.74
+[patient_gender = 'F'],NOT_ASSOCIATED,0.0,0.6
+"[previous_isolation_of_sarm = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",SPACE_MODULATED,0.6843509440591192,0.74
+[patient_age = 'ADULT'],TRANSVERSAL,0.0,0.86
+"[mechanical_ventilation_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.2730108873014167,0.77
+"[mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']",TRANSVERSAL,0.010344670613506,0.775
+[treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'],SPACE_MODULATED,0.6904747256386551,0.76
+[treated_with_vancomycin_in_previous_admissions = 'yes'],TRANSVERSAL,0.0,0.935
+[previous_exposure_to_fluorquinolones = 'yes'],TRANSVERSAL,0.2777709876973074,0.64

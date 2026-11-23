@@ -1,0 +1,57 @@
+Dataset information:
+	- Number of instances: 378.
+	- Number of positive instances: 129.
+	- Number of negative instances: 249.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3930.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 35
+	- negative instances covered: 12
+	- total instances covered: 47
+	Considering it individually:
+	- positive instances covered: 35
+	- negative instances covered: 12
+	- total instances covered: 47
+default rule:
+	positive instances covered: 94
+	negative instances covered: 237
+	total instances covered: 331
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 33
+	- negative instances covered: 12
+	- total instances covered: 45
+	Considering it individually:
+	- positive instances covered: 33
+	- negative instances covered: 12
+	- total instances covered: 45
+default rule:
+	positive instances covered: 96
+	negative instances covered: 237
+	total instances covered: 333
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [admission_type = 'EMERGENCY', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 99
+	- negative instances covered: 70
+	- total instances covered: 169
+	Considering it individually:
+	- positive instances covered: 99
+	- negative instances covered: 70
+	- total instances covered: 169
+default rule:
+	positive instances covered: 30
+	negative instances covered: 179
+	total instances covered: 209
+

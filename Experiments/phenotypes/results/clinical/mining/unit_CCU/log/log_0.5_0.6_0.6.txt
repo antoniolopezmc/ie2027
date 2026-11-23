@@ -1,0 +1,21 @@
+Configuration: unit_CCU
+Number of instances: 208
+Number of attributes: 25
+Number of instances in which the target is true: 37
+Number of instances in which the target is false: 171
+beta_parameter = 0.5
+maximum_positive_overlap = 0.6
+maximum_negative_overlap = 0.6
+---
+## Subgroup list 1 (1 subgroups) ##
+s1: [treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (0 subgroups) ##
+## Subgroup list 3 (0 subgroups) ##
+---
+quality = 0.022782606015779094
+coverage = 0.2644230769230769
+diversity = 1.0
+number_of_subgroups = 1
+---
+Start time: 2026-10-12 16:08:05.715834
+End time: 2026-10-12 16:08:07.354209

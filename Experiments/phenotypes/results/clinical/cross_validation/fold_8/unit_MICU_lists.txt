@@ -1,0 +1,66 @@
+Dataset information:
+	- Number of instances: 661.
+	- Number of positive instances: 284.
+	- Number of negative instances: 377.
+	- Total number of attributes (including the target): 25.
+
+
+Reading input file.
+Read subgroups: 3610.
+Input file read.
+
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 72
+	- negative instances covered: 15
+	- total instances covered: 87
+	Considering it individually:
+	- positive instances covered: 72
+	- negative instances covered: 15
+	- total instances covered: 87
+default rule:
+	positive instances covered: 212
+	negative instances covered: 362
+	total instances covered: 574
+
+## Subgroup list (1 subgroup) ##
+s1: Description: [readmission = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 82
+	- negative instances covered: 27
+	- total instances covered: 109
+	Considering it individually:
+	- positive instances covered: 82
+	- negative instances covered: 27
+	- total instances covered: 109
+default rule:
+	positive instances covered: 202
+	negative instances covered: 350
+	total instances covered: 552
+
+## Subgroup list (2 subgroups) ##
+s1: Description: [hematopoietic_transplant_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 208
+	- negative instances covered: 123
+	- total instances covered: 331
+	Considering it individually:
+	- positive instances covered: 208
+	- negative instances covered: 123
+	- total instances covered: 331
+s2: Description: [patient_gender = 'F'], Target: culture_susceptibility = 'R'
+	Considering its position in the list:
+	- positive instances covered: 46
+	- negative instances covered: 127
+	- total instances covered: 173
+	Considering it individually:
+	- positive instances covered: 158
+	- negative instances covered: 179
+	- total instances covered: 337
+default rule:
+	positive instances covered: 30
+	negative instances covered: 127
+	total instances covered: 157
+

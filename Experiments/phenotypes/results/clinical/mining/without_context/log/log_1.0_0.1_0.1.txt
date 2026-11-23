@@ -1,0 +1,30 @@
+Configuration: without_context
+Number of instances: 2505
+Number of attributes: 25
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 1.0
+maximum_positive_overlap = 0.1
+maximum_negative_overlap = 0.1
+---
+## Subgroup list 1 (4 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [admission_location = 'TRANSFER_FROM_HOSPITAL', readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s4: [admission_location = 'REFERRAL', previous_exposure_to_fluorquinolones = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 2 (3 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [admission_location = 'TRANSFER_FROM_HOSPITAL', mechanical_ventilation_in_previous_admissions = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [admission_location = 'REFERRAL', previous_isolation_of_erv = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+## Subgroup list 3 (3 subgroups) ##
+s1: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [admission_location = 'TRANSFER_FROM_HOSPITAL', previous_exposure_to_fluorquinolones = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [admission_location = 'REFERRAL', previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+---
+quality = 0.08208158533232936
+coverage = 0.27904191616766466
+diversity = 0.5232323232323233
+number_of_subgroups = 10
+---
+Start time: 2026-10-12 15:52:38.226717
+End time: 2026-10-12 15:53:13.022275

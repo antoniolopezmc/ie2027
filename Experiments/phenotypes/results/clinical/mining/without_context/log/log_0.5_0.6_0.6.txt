@@ -1,0 +1,30 @@
+Configuration: without_context
+Number of instances: 2505
+Number of attributes: 25
+Number of instances in which the target is true: 829
+Number of instances in which the target is false: 1676
+beta_parameter = 0.5
+maximum_positive_overlap = 0.6
+maximum_negative_overlap = 0.6
+---
+## Subgroup list 1 (4 subgroups) ##
+s1: [treated_with_vancomycin_in_previous_admissions = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [readmission = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [admission_location = 'REFERRAL']
+s4: [patient_age = 'ADULT', previous_exposure_to_third_generation_cephalosporins = 'no']
+## Subgroup list 2 (3 subgroups) ##
+s1: [previous_exposure_to_antifungal_agents = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_antifungal_agents = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [patient_age = 'ADULT', previous_isolation_of_erv = 'no']
+## Subgroup list 3 (3 subgroups) ##
+s1: [previous_exposure_to_fluorquinolones = 'yes', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s2: [previous_exposure_to_fluorquinolones = 'no', treated_with_vancomycin_in_the_current_admission_before_culture = 'yes']
+s3: [patient_age = 'ADULT', previous_exposure_to_carbapenems = 'no']
+---
+quality = 0.10860232960559256
+coverage = 0.7273453093812375
+diversity = 0.7685185185185185
+number_of_subgroups = 10
+---
+Start time: 2026-10-12 15:51:16.186674
+End time: 2026-10-12 15:51:47.074452
